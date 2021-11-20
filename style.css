@@ -1,7 +1,6 @@
 body { font-family: sans-serif;
 margin: 0; 
--webkit-tap-highlight-color: rgba(255, 255, 255, 0);
--webkit-tap-highlight-color: transparent;
+outline:0;
 }
 
 .main_div{
