@@ -5,7 +5,7 @@ margin: 0;
 .main_div{
 background-image: url(main.jpg);
 width: 1080px;
-height: 2400px;
+height: 2285px;
 position: absolute;
 }
 
@@ -13,7 +13,7 @@ position: absolute;
 .scene {
   width: 936px;
   height: 1270px;
-  margin: 556px 72px;
+  margin: 455px 72px;
   perspective: 5000px;
   border-radius: 32px;
 
