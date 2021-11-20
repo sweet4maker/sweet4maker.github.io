@@ -1,49 +1,44 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: Roboto, sans-serif;
+body { font-family: sans-serif; }
+
+.scene {
+  width: 200px;
+  height: 260px;
+  border: 1px solid #CCC;
+  margin: 40px 0;
+  perspective: 600px;
 }
 
-body{
-    background-color: #333;
+.card {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative;
 }
 
-.center{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.card.is-flipped {
+  transform: rotateY(180deg);
 }
 
-.card{
-    cursor: pointer;
-    width: 936px;
-    height: 1270px;
+.card__face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  line-height: 260px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
-.front,
-.back{
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    backface-visibility: hidden;
-    position: absolute;
-    transition: transform .6s linear;
+.card__face--front {
+  background: red;
 }
 
-.front{
-    transform: perspective(1270px) rotateY(0deg);
-    background-color: red;
-}
-
-.back{
-    transform: perspective(1270px) rotateY(180deg);
-    background-color: #f1f1f1;
-}
-
-.card:hover > .front{
-    transform: perspective(1270px) rotateY(-180deg);
-}
-.card:hover > .back{
-    transform: perspective(1270px) rotateY(0deg);
+.card__face--back {
+  background: blue;
+  transform: rotateY(180deg);
 }
