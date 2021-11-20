@@ -4,22 +4,24 @@
     <meta charset="UTF-8">
     <title>main</title>
     <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
 </head>
 <body>
 
-<div class="card center">
-
-    <div class="front">
-        
-    </div>
-
-    <div class="back">
-
-       
-
-    </div>
-
+<div class="scene scene--card">
+  <div class="card">
+    <div class="card__face card__face--front">front</div>
+    <div class="card__face card__face--back">back</div>
+  </div>
 </div>
+
+<script>
+	
+	var card = document.querySelector(".card");
+card.addEventListener("click", function () {
+  card.classList.toggle("is-flipped");
+});
+</script>>
 
 </body>
 </html>
