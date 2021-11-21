@@ -1,7 +1,9 @@
 body { 
   margin: 0; 
-  max-width: 1080px;
 }
+
+@media ( max-width: 1080px){
+
 
 @font-face{
 font-family: e-Ukraine-Medium;
@@ -117,4 +119,5 @@ position: absolute;
   width: 700px;
   height: 700px;
 
+}
 }
