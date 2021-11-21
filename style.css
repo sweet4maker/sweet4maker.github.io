@@ -2,9 +2,6 @@ body {
   margin: 0; 
 }
 
-@media ( max-width: 1080px){
-}
-
 @font-face{
 font-family: e-Ukraine-Medium;
 src: url(e-Ukraine-Medium.ttf);
