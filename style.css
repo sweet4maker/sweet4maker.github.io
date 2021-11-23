@@ -18,9 +18,8 @@ position: absolute;
 .scene {
   width: 80%;
   height: 100px;
-  margin: 455px 72px;
   perspective: 5000px;
-  border-radius: 32px;
+  
 
 }
 
@@ -61,5 +60,3 @@ position: absolute;
   justify-content: center;
   align-items: center;
 }
-
-
