@@ -38,7 +38,7 @@ src: url(e-Ukraine-Medium.ttf);
   width: 100%;
   height: 100%;
    border-radius: 32px;
-  transition: transform 1s;
+  transition: transform 0.7s;
   transform-style: preserve-3d;
 }
 
