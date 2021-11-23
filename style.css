@@ -28,7 +28,7 @@ src: url(e-Ukraine-Medium.ttf);
   height: 55.67%;
   top: 19.34%;
   left: 6.67%;
-  perspective: 5000px;
+  perspective: 1500px;
   position: absolute;
   border-radius: 32px;
 
@@ -52,7 +52,7 @@ src: url(e-Ukraine-Medium.ttf);
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  box-shadow: 0px 90px 100px -70px;
+  box-shadow: 0px 90px 90px -70px rgba(50, 50, 50, 0.6);
    border-radius: 32px;
 }
 
@@ -64,7 +64,7 @@ src: url(e-Ukraine-Medium.ttf);
   background: #e8f5e4; 
     position: absolute;
   transform: rotateY(180deg);
-  box-shadow: 0px 90px 100px -70px;
+  box-shadow: 0px 90px 90px -70px rgba(50, 50, 50, 0.6);
   display: flex;
   flex-direction: column;
   justify-content: center;
