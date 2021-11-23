@@ -17,8 +17,8 @@ src: url(e-Ukraine-Medium.ttf);
   right: 0;
   background: #dff6da;
   position: absolute;
-  border-top-left-radius: 3%;
-  border-bottom-left-radius: 3%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 
