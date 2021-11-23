@@ -1,5 +1,6 @@
 body { 
   margin: 0; 
+  background-image: url(main.jpg);
 }
 
 @font-face{
@@ -14,12 +15,7 @@ src: url(e-Ukraine-Medium.ttf);
   position: absolute;
 }
 
-.main_div{
-background-image: url(main.jpg);
-width: 1080px;
-height: 2285px;
-position: absolute;
-}
+
 
 
 .scene {
