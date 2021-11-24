@@ -35,6 +35,11 @@ var card = document.querySelector(".card");
 card.addEventListener("click", function () {
 card.classList.toggle("is-flipped");
 });
+    
+public int getPx(int dp){       
+    float scale = getResources().getDisplayMetrics().density;
+    return((int) (dp * scale + 0.5f));
+}    
 </script>
 
 </body>
