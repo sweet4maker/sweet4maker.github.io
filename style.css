@@ -22,7 +22,7 @@ src: url(e-Ukraine-Medium.ttf);
 }
 
 .diia_logo{
-  width: 19dp;
+  width: 48dp;
   
   position: absolute;
   top: 2.03%;
@@ -38,8 +38,8 @@ width: 5.56%;
 }
 
 .menu_logo{
-width: 7dp;
-  height: 7dp;
+width: 48dp;
+  height: 48dp;
   position: absolute;
   bottom: 4.55%;
   right: 9.91%;
