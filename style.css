@@ -2,7 +2,7 @@ body {
 margin: 0; 
 width: 360dp;
 height: 800dp;
-background: red;
+background: blue;
 }
 
 @font-face{
@@ -22,24 +22,24 @@ src: url(e-Ukraine-Medium.ttf);
 }
 
 .diia_logo{
-  width: 48dp;
-  
+  width: 13.43%;
+  height: 6.35;
   position: absolute;
-  top: 2.03%;
-  left: 6.43%;
+  top: 2.1%;
+  left: 6.67%;
 }
 
 .qr_logo{
 width: 5.56%;
-  
+  height: 2.63%;
   position: absolute;
   top: 4.03%;
   right: 9.44%;
 }
 
 .menu_logo{
-width: 48dp;
-  height: 48dp;
+width: 4.44%;
+  height: 2.63%;
   position: absolute;
   bottom: 4.55%;
   right: 9.91%;
