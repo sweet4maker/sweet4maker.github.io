@@ -14,15 +14,15 @@
     }
 
     .senior {
-        width: 1080px;
-        height: 2285px;
+        width: 360px;
+        height: 800px;
         background-image: url(images/main.jpg);
     }
 
     .middle {
-        width: 936px;
-        height: 1275px;
-        margin: 440px 71px;
+        width: 312px;
+        height: 425px;
+        margin: 146.7px 23.7px;
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -31,67 +31,67 @@
     }
 
     .junior_top {
-        width: 842px;
-        height: 215px;
-        font-size: 62px;
+        width: 280.7px;
+        height: 71.7px;
+        font-size: 20.7px;
     }
 
     .junior_middle {
-        width: 830px;
-        height: 608px;
+        width: 276.7px;
+        height: 202.7px;
     }
 
     .junior_bottom {
-        width: 830px;
-        height: 263px;
-        border-top: 5px solid #c6e6bf;
+        width: 276.7px;
+        height: 87.7px;
+        border-top: 1.7px solid #c6e6bf;
         box-sizing: border-box;
     }
 
     .foto {
-        width: 408px;
-        height: 525px;
-        border: 6px solid #baf9c4;
+        width: 136px;
+        height: 175px;
+        border: 2px solid #baf9c4;
         background-image: url(images/iam.jpg);
     }
 
     .infoteka {
-        width: 372px;
-        height: 536px;
-        margin: 6px 0px 0px 38px;
+        width: 124px;
+        height: 178.7px;
+        margin: 2px 0px 0px 12.7px;
         flex-direction: column;
     }
 
 
     .info_top, .info_middle, .info_bottom {
-        width: 372px;
-        font-size: 35px;
+        width: 124px;
+        font-size: 11.7px;
     }
 
     .info_top {
-        height: 164px;
+        height: 54.7px;
     }
 
     .info_middle {
-        height: 116px;
+        height: 38.7px;
     }
 
     .info_bottom {
-        height: 256px;
+        height: 85.3px;
     }
 
     .name {
-        width: 728px;
-        height: 251px;
-        padding-top: 22px;
-        font-size: 60px;
-        line-height: 1.4;
+        width: 242.7px;
+        height: 83.7px;
+        padding-top: 7.3px;
+        font-size: 20px;
+        line-height: 0.47;
     }
 
     .point {
-        width: 85px;
-        height: 85px;
-        margin-top: 188px;
+        width: 28.3px;
+        height: 28.3px;
+        margin-top: 62.7px;
         background-image: url(images/point.png);
     }
 }
