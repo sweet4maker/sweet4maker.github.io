@@ -16,7 +16,7 @@
     .senior {
         width: 360px;
         height: 800px;
-        background-image: url(images/main.jpg);
+        background-image: url(Images/main.jpg);
     }
 
     .middle {
@@ -52,7 +52,7 @@
         width: 136px;
         height: 175px;
         border: 2px solid #baf9c4;
-        background-image: url(images/iam.jpg);
+        background-image: url(Images/iam.jpg);
     }
 
     .infoteka {
@@ -85,14 +85,14 @@
         height: 83.7px;
         padding-top: 7.3px;
         font-size: 20px;
-        line-height: 0.47;
+        line-height: 1.4;
     }
 
     .point {
         width: 28.3px;
         height: 28.3px;
         margin-top: 62.7px;
-        background-image: url(images/point.png);
+        background-image: url(Images/point.png);
     }
 }
 
