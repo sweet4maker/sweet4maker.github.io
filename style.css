@@ -52,7 +52,7 @@ div {
     width: 408px;
     height: 525px;
     border: 6px solid #baf9c4;
-    background-image: url(images/iam.jpg);
+    background-image: url(Images/iam.jpg);
 }
 
 .info{
@@ -72,7 +72,7 @@ div {
     width: 85px;
     height: 85px;
     margin-top: 150px;
-    background-image: url(images/point.png);
+    background-image: url(Images/point.png);
 }
 
 
