@@ -4,12 +4,12 @@
 
 
     @font-face {
-        font-family: e-Ukraine-Light;
-        src: url(front/e-Ukraine-Light.otf);
+        font-family: e-Ukraine-Regular;
+        src: url(front/e-Ukraine-Regular.otf);
     }
 
     div {
-        font-family: e-Ukraine-Light;
+        font-family: e-Ukraine-Regular;
         display: flex;
     }
 
